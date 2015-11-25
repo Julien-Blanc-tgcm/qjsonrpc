@@ -3,6 +3,7 @@ include(http-parser/http-parser.pri)
 
 INCLUDEPATH += .
 TEMPLATE = lib
+CONFIG += staticlib
 TARGET = qjsonrpc
 QT += core network
 QT -= gui
