@@ -26,7 +26,7 @@
 #include "qjsonrpcsocket.h"
 #include "qjsonrpcservicereply.h"
 
-class QNetwokReply;
+class QNetworkReply;
 class QAuthenticator;
 class QSslError;
 class QNetworkAccessManager;
