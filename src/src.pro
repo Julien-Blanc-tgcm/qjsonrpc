@@ -3,7 +3,7 @@ include(http-parser/http-parser.pri)
 
 INCLUDEPATH += .
 TEMPLATE = lib
-CONFIG += staticlib
+#CONFIG += staticlib
 TARGET = qjsonrpc
 QT += core network
 QT -= gui
@@ -68,7 +68,7 @@ qjson_headers.path = $${PREFIX}/include/qjsonrpc/json
 private_headers.files = $${PRIVATE_HEADERS}
 private_headers.path = $${PREFIX}/include/qjsonrpc/private
 target.path = $${PREFIX}/$${LIBDIR}
-INSTALLS += headers qjson_headers private_headers target
+#INSTALLS += headers qjson_headers private_headers target
 
 # pkg-config support
 CONFIG += create_pc create_prl no_install_prl
